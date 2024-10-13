@@ -45,10 +45,25 @@ body {
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
 }
-    
+  
+@media (max-width: 575.98px) {
+    .carousel-caption {
+        top: 25%; !important;
+        width: 60%; /* Adjust width if necessary */
+    }
+    p{
+        font-size:10px
+    }
+}
+
+@media (min-width: 575.98px) {
+    .carousel-caption {
+        top: 20%; 
+    }
+}
+
 .carousel-caption {
     position: absolute; 
-    top: 20%; 
     left: 0; 
     padding-left: 2;
     z-index: 2; 
@@ -56,6 +71,8 @@ body {
     text-shadow: 1px 1px 2px black;
     width: 45%
 }
+
+
 
 .gallery-container {
     padding: 20px;
