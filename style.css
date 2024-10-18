@@ -52,13 +52,23 @@ body {
         width: 60%; /* Adjust width if necessary */
     }
     p{
-        font-size:10px
+        font-size:10px;
+    }
+
+    .tiktok-icon{
+        width: 4vh;
+        height: auto;
     }
 }
 
 @media (min-width: 575.98px) {
     .carousel-caption {
         top: 20%; 
+    }
+
+    .tiktok-icon{
+        width: 5vh;
+        height: auto;
     }
 }
 
@@ -109,3 +119,4 @@ body {
 .image-container:hover .quote {
     opacity: 1; 
 }
+
