@@ -93,10 +93,10 @@ body {
     width: 45%
 }
 
-
-
 .gallery-container {
     padding: 20px;
+    position: relative; 
+    z-index: 1
 }
 .image-container {
     position: relative;
@@ -132,12 +132,12 @@ body {
     opacity: 1; 
 }
 
-#music-player img {
+#music-player {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 999999;
-    pointer-events: auto; /
+    z-index: 99999; /* Ensure it's on top of the gallery */
+    pointer-events: auto; /* Ensure it's clickable */
 }
 
 #music-player img.spin {
