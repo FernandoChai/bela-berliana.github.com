@@ -101,6 +101,7 @@ body {
 .image-container {
     position: relative;
     perspective: 1000px; 
+    z-index: 1;
 }
 .gallery-img {
     border-radius: 15px;
@@ -135,7 +136,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 99999;
+    z-index: 999999;
     pointer-events: auto; /
 }
 
