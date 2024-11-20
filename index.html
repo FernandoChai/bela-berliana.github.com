@@ -12,6 +12,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- loading page -->
+    <!-- <div id="loadingOverlay">
+        <img src="/img/cute-spin.gif" alt="Loading..." width="100">
+      </div> -->
+
+      <!-- Loading Overlay -->
+  <div id="loadingOverlay">
+    <div class="text-center">
+      <!-- Loading GIF -->
+      <img src="/img/cute-spin.gif" alt="Loading..." width="100">
+
+      <!-- Loading Bar -->
+      <div class="progress mt-3" style="width: 200px; margin: 0 auto;">
+        <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" 
+             role="progressbar" 
+             style="width: 0%" 
+             aria-valuenow="0" 
+             aria-valuemin="0" 
+             aria-valuemax="100">
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Carousel Highlight images -->
     <div class="mt-1">
         <div id="carouselExampleSlidesOnly" class="carousel slide mt-0" data-bs-ride="carousel">
